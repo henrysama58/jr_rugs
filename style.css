@@ -328,6 +328,39 @@ header {
     margin-bottom: 16px;
 }
 
+/* FOOTER */
+footer {
+    background-color: #242424;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-logo-img {
+    width: 160px;
+}
+
+.footer-links {
+    margin: 20px 0 24px 0;
+}
+
+.footer-link {
+    color: white;
+    padding: 0 8px;
+}
+
+.footer-copyright {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+
 /* BIG TABLETS */
 @media (max-width: 1280px) {
     .hero-img {
@@ -351,6 +384,26 @@ header {
     .nav-link {
         font-size: 16px;
     }
+}
+
+@media(max-width: 768px) {
+    .header-description {
+        padding: 0 24px;
+    }
+
+    h1 {
+        font-size: 40px;
+        margin-top: 12px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    button {
+        font-size: 18px;
+    }
+
 }
 
 @media (max-width: 522px) {
