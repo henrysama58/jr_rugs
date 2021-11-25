@@ -7,6 +7,7 @@
     <title>JR_RUGS | Paul Nguyen</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
 </head>
 <body>
     <section id="landing-page">
@@ -27,6 +28,20 @@
                         <a class="nav-link" href="#prices">Prices</a>
                     </li>
                 </ul>
+                <button class="btn-menu" onclick="openMenu()">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="menu-backdrop">
+                    <button class="btn-menu btn-menu-close" onclick="closeMenu()">
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <ul class="menu-links">
+                        <li class="menu-list"><a class="menu-link" onclick="closeMenu()" href="#landing-page">Home</a></li>
+                        <li class="menu-list"><a class="menu-link" onclick="closeMenu()" href="#designs">Designs</a></li>
+                        <li class="menu-list"><a class="menu-link no-cursor" onclick="closeMenu()" href="#info">Info</a></li>
+                        <li class="menu-list"><a class="menu-link no-cursor" onclick="closeMenu()" href="#prices">Prices</a></li>
+                    </ul>
+                </div>
             </div>
         </nav>
         <header>
@@ -51,10 +66,12 @@
                         <button class="btn">Commissions</button>
                     </a>
                     </div>
+                    <figure class="header-img-wrapper">
+                        <img class="hero-img" src="assets/IMG_0448.jpg" alt="">
+                    </figure>
                 </div>
-            <figure class="header-img-wrapper">
-                <img class="hero-img" src="assets/IMG_0448.jpg" alt="">
-            </figure>
+                
+            </div>
         </header>
     </section>
 
@@ -146,7 +163,7 @@
                 <div class="pricing-options">
                     <div class="rug-option">
                         <figure class="option-img">
-                            <img src="assets/amongus.jpg" alt="">
+                            <img src="assets/mech.jpg" alt="">
                         </figure>
                         <div class="option-text">
                             <h2>
@@ -156,7 +173,20 @@
                                 (MIN Size)
                             </h2>
                             <h2>
-                                $30
+                                $50
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="rug-option">
+                        <figure class="option-img">
+                            <img src="assets/benz.jpg" alt="">
+                        </figure>
+                        <div class="option-text">
+                            <h2>
+                                2x3 Feet
+                            </h2>
+                            <h2>
+                                $75
                             </h2>
                         </div>
                     </div>
@@ -166,16 +196,16 @@
                         </figure>
                         <div class="option-text">
                             <h2>
-                                2x4 Feet
+                                3x3 Feet
                             </h2>
                             <h2>
-                                $40
+                                $100
                             </h2>
                         </div>
                     </div>
                     <div class="rug-option">
                         <figure class="option-img">
-                            <img src="assets/amongus.jpg" alt="">
+                            <img src="assets/mediumraresteak.jpg" alt="">
                         </figure>
                         <div class="option-text">
                             <h2>
@@ -185,9 +215,20 @@
                                 (MAX Size)
                             </h2>
                             <h2>
-                                $50
+                                $150
                             </h2>
                         </div>
+                    </div>
+                    <div class="rug-color">
+                        <h2>
+                            First color used will be  <span id="emp">$10</span>, and <span id="emp">$5</span> for each additional color. 
+                        </h2>
+                        <h2>
+                            Black will be <span id="emp">NO</span> charge for color.
+                        </h2>
+                        <h3>
+                            Please contact me on <span id="emp">Instagram</span> if you are unsure of how many colors I used.
+                        </h3>
                     </div>
                 </div>
             </div>
