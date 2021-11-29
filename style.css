@@ -5,10 +5,11 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    background-color: #242424;
 }
 
 #emp {
-    color: #FF581C;
+    color: red;
 }
 
 html {
@@ -44,7 +45,7 @@ body {
 
 h1 {
     font-size: 42px;
-    color: #FF581C;
+    color: red;
     margin-bottom: 24px;
     text-align: center;
 }
@@ -53,10 +54,12 @@ h2 {
     text-align: center;
     font-size: 32px;
     margin-bottom: 20px;
+    color: white;
 }
 
 h3 {
     text-align: center;
+    color: white;
 }
 
 .btn-menu {
@@ -64,7 +67,7 @@ h3 {
     font-size: 40px;
     text-align: center;
     border: none;
-    color: #FF581C;
+    color: red;
     display: none;
 }
 
@@ -189,7 +192,7 @@ li {
     font-size: 20px;
     font-weight: 700;
     padding: 4px;
-    color: #FF581C;
+    color: red;
 }
 
 .nav-link:hover {
@@ -232,7 +235,7 @@ header {
 
 .about-me_link {
     font-size: 25px;
-    color: black;
+    color: white;
     text-decoration: none;
     margin: 0 16px;
     transition: all 300ms ease;
@@ -243,7 +246,7 @@ header {
 }
 
 .btn {
-    background-color: #FF581C;
+    background-color: rgb(255, 0, 0);
     color: white;
     padding: 12px 24px;
     font-size: 20px;
@@ -304,12 +307,12 @@ header {
 .rug-name {
     position: absolute;
     bottom: 0;
-    color: black;
+    color: white;
     font-size: 20px;
 }
 
 .designs-header {
-    color: black;
+    color: white;
     margin-bottom: 32px;
 }
 
@@ -319,7 +322,7 @@ header {
 }
 
 .info-header {
-    color: black;
+    color: white;
 }
 
 .info-container {
@@ -332,7 +335,7 @@ header {
 }
 
 .pricing-header {
-    color: black;
+    color: white;
     margin-bottom: 32px;
 }
 
