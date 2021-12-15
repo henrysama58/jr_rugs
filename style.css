@@ -256,7 +256,7 @@ header {
 
 /* DESIGNS */
 #designs {
-    background-color: rgb(231, 223, 223);
+
 }
 
 .designs-container {
@@ -336,9 +336,9 @@ header {
     padding: 36px;
 }
 
-.rug-option{
+.rug-option {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     padding: 36px 72px;
     align-items: center;
 }
@@ -389,6 +389,11 @@ footer {
     justify-content: center;
 }
 
+.payment-pic {
+    display: flex;
+    justify-content: center;
+    margin-top: 42px;
+}
 
 /* BIG TABLETS */
 @media (max-width: 1280px) {
